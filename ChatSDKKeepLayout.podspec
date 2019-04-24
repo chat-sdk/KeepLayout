@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ChatSDKKeepLayout"
-  s.version      = "1.7.6"
+  s.version      = "1.7.7"
   s.summary      = "Making Auto Layout easier to code."
   s.homepage     = "https://github.com/chat-sdk/KeepLayout"
 
@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Swift'
   
   s.platform = :ios, '8.0'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
   s.subspec 'ObjC' do |op|
     op.source_files = 'Sources'
