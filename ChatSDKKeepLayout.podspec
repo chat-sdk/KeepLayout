@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "ChatSDKKeepLayout"
-  s.version      = "1.7.5"
+  s.version      = "1.7.6"
   s.summary      = "Making Auto Layout easier to code."
   s.homepage     = "https://github.com/chat-sdk/KeepLayout"
 
   s.license      = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author       = 'Tricertops'
 
-  s.source       = { :git => "https://github.com/chat-sdk/KeepLayout.git", :tag => "1.7.5" }
+  s.source       = { :git => "https://github.com/chat-sdk/KeepLayout.git", :tag => "1.7.6" }
 
   s.requires_arc = true
 
